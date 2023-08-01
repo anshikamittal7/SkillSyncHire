@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+
+import Banner from "./components/Banner";
+import Header, { HeaderPhone } from "./components/Header";
+import Blog from "./components/Blog";
+import Jobs from "./components/Jobs";
+import Footer from "./components/Footer";
+import Success from "./components/Success";
+
+
+
+import "./styles/header.scss";
+import "./styles/banner.scss";
+import "./styles/blog.scss";
+import "./styles/card.scss";
+import "./styles/footer.scss"
+import "./styles/success.scss";
+import "./styles/mediaquery.scss";
+
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  console.log(menuOpen);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Banner />
+      <Blog />
+      <Jobs />
+      <Success />
+      <Footer />
+    </>
   );
 }
 

@@ -1,0 +1,126 @@
+@import "./colors.scss";
+
+.banner {
+  width: 100%;
+  height: 90vh;
+  padding: 5% 5%;
+  background-image: url("../media/poster.jpg");
+  filter: blur(2px);
+  -webkit-filter: blur(2 px);
+  border-radius: 0 0 200px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannercontent {
+  width: 50%;
+  padding: 5% 5%;
+  height: 60%;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  > h1 {
+    font-weight: bold;
+  }
+  > p {
+    font-size: medium;
+    letter-spacing: 2px;
+  }
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    > button {
+      width: 45%;
+      border-radius: 50px;
+      padding: 2%;
+      font-weight: bold;
+      border: none;
+    }
+    > button:nth-of-type(1) {
+      background-color: $darkblue ;
+      color: white;
+    }
+    > button:nth-of-type(2) {
+      color: $darkblue;
+      background-color: white;
+    }
+  }
+}
+
+.banner2 {
+  width: 100%;
+  height: 100vh;
+  padding: 5% 10%;
+
+  > h3 {
+    border-bottom: 1px solid $color6_1;
+    padding: 0.5rem;
+    margin: auto;
+  }
+  .box {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .logos {
+    overflow: hidden;
+    white-space: nowrap;
+    // position: relative;
+  }
+
+  .logos:before,
+  .logos:after {
+    // position: absolute;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+
+  .logos-slide {
+    display: inline-block;
+    animation: 20s slide infinite linear;
+  }
+
+  .logos-slide img {
+    height: 50px;
+    margin: 0 30px;
+  }
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}

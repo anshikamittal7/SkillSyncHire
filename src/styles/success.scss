@@ -1,0 +1,53 @@
+@import "./colors.scss";
+
+#successstories {
+  height: 100vh;
+  padding: 5% 5%;
+  background-color: $Steelblue;
+  color: white;
+  overflow: hidden;
+  > h3 {
+    border-bottom: 1px solid white;
+    padding: 0.5rem;
+  }
+  > div {
+    width: 90%;
+    height: 50vh;
+    background-color: white;
+    margin: 5%;
+    color: black;
+  }
+  .people {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    .img {
+      > img {
+        border-radius: 0 100px 100px 0;
+        width: 500px;
+        height: 400px;
+        padding: 5%;
+      }
+    }
+    .content {
+      padding: 5%;
+      text-align: left;
+      > h4 {
+        font-size: large;
+      }
+      > p {
+        line-height: 1.5rem;
+      }
+      > a button {
+        border: 1px solid black;
+        background-color: $orange;
+        padding: 10px 15px;
+        border-radius: 5px;
+      }
+    }
+  }
+}

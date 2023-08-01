@@ -1,0 +1,179 @@
+{
+  "jobs": [
+    {
+      "job_title": "Software Engineer",
+      "description": "Develops and maintains software applications. Problem solver. Coding expert.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Data Scientist",
+      "description": "Analyzes complex data sets to derive insights and make data-driven decisions.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Product Manager",
+      "description": "Leads product development and manages product lifecycle. Market strategy expert.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Marketing Specialist",
+      "description": "Executes marketing campaigns. Social media and SEO savvy. Creative thinker.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "UX/UI Designer",
+      "description": "Creates intuitive user interfaces. Designs engaging user experiences. Visual artist.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Financial Analyst",
+      "description": "Analyzes financial data. Provides insights for better financial decision-making.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Human Resources Manager",
+      "description": "Oversees HR operations. Recruitment and employee relations expert.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Sales Representative",
+      "description": "Sells products or services. Persuasive communicator. Customer-oriented.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Customer Support Specialist",
+      "description": "Provides customer assistance. Problem-solving skills. Patient and empathetic.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Operations Manager",
+      "description": "Manages business operations. Organized leader. Process optimization expert.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Graphic Designer",
+      "description": "Creates visual designs. Adobe Creative Suite skills. Artistic and innovative.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "IT Support Technician",
+      "description": "Provides IT support. Troubleshooting skills. Tech-savvy problem solver.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Content Writer",
+      "description": "Writes engaging content. Grammar and storytelling skills. Creative wordsmith.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Quality Assurance Engineer",
+      "description": "Ensures software quality. Testing and debugging skills. Detail-oriented.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Business Analyst",
+      "description": "Analyzes business processes. Data-driven insights. Analytical problem solver.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Project Manager",
+      "description": "Manages projects from initiation to completion. Leadership and planning skills.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Administrative Assistant",
+      "description": "Provides administrative support. Organized and multitasking. Office management.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Electrical Engineer",
+      "description": "Designs electrical systems. Problem-solving skills. Innovative thinker.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Mechanical Engineer",
+      "description": "Designs mechanical systems. Analytical and technical skills. Innovator.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Social Media Manager",
+      "description": "Manages social media accounts. Content strategy expert. Online community builder.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Public Relations Specialist",
+      "description": "Handles PR campaigns. Media relations expert. Crisis management skills.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Chemical Engineer",
+      "description": "Designs chemical processes. Analytical and problem-solving skills. Safety-oriented.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Nurse",
+      "description": "Provides medical care. Compassionate and attentive. Healthcare professional.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Pharmacist",
+      "description": "Dispenses medications. Pharmacology knowledge. Patient counseling skills.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Dental Assistant",
+      "description": "Assists dentists. Chairside skills. Sterilization and patient care.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Lawyer",
+      "description": "Provides legal advice. Analytical and persuasive. Courtroom representation.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Architect",
+      "description": "Designs architectural structures. CAD and creativity skills. Construction planning.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Fitness Trainer",
+      "description": "Creates workout programs. Motivational and fitness expertise. Personal coach.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Chef",
+      "description": "Prepares culinary delights. Culinary skills and creativity. Kitchen management.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Travel Agent",
+      "description": "Arranges travel itineraries. Destination expert. Customer satisfaction focus.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Event Planner",
+      "description": "Organizes events. Budget and logistics management. Detail-oriented coordinator.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Fashion Designer",
+      "description": "Creates stylish clothing. Fashion-forward and artistic. Fabric and trend knowledge.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Real Estate Agent",
+      "description": "Assists in property transactions. Market and negotiation skills. Sales-driven.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Photographer",
+      "description": "Captures stunning visuals. Photography expertise. Editing and artistic eye.",
+      "view_job_description": "View Job Description"
+    },
+    {
+      "job_title": "Journalist",
+      "description": "Reports news stories. Writing and investigative skills. Media professional.",
+      "view_job_description": "View Job Description"
+    }
+  ]
+}
