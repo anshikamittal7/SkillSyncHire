@@ -86,24 +86,15 @@
 @media screen and (max-width: 600px) {
   .bannercontent {
     > p {
-      text-align: center;
-      color: white;
       line-height: normal;
-      font-size: medium;
-      letter-spacing: normal;
+      font-size: small;
+      letter-spacing: 2px;
     }
     > div {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 80%;
+      width: 160%;
     }
     > button {
-      width: 45%;
-      font-weight: bold;
-      border-radius: 100px;
-      padding: 2%;
-      font-size: 1rem;
+      padding: 3%;
     }
   }
   .banner2 {
